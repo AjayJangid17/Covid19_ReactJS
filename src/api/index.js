@@ -2,6 +2,8 @@ import axios from 'axios';
 
 const url = 'https://covid19.mathdro.id/api';
 
+
+
 export const fetchData = async (country) => {
     let changeableUrl = url;
 
@@ -48,15 +50,22 @@ export const fetchCountries = async () => {
     }
     
 }
-
-
-// export const fetchCountryData = async () => {
+// export const fetchState = async () => {
 //     try {
-//         const {data : { confirmed, recovered, deaths }} = await axios.get(url);
+//         const {table : { state }} = await axios.get('http://covid19-india-adhikansh.herokuapp.com/states');
 
-//         return {confirmed, recovered, deaths };
+//         return state.map((apidata) => apidata)
 //     }catch(error) {
 
 //     }
     
 // }
+
+
+
+
+
+ 
+
+
+

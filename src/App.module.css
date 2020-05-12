@@ -12,8 +12,15 @@ body {
 }
 
 .image {
-    width: 370px;
-    margin-top: 50px;
+    width: 340px;
+    margin-top: -90px;
+    margin-bottom: -130px;
+}
+
+.indiaimage {
+    width: 2%;
+    height: 2%;
+    background-color: lightgray;
 }
 
 @media (max-width: 770px) {
