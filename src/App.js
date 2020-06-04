@@ -8,7 +8,7 @@ import { fetchData } from './api'
 import styles from './App.module.css';
 
 import coronoImage from './images/image.png';
-import IndiaImage from './images/india.png';
+import coronagif from './images/covid-19.gif';
 
 
 class App extends React.Component {
@@ -41,9 +41,11 @@ class App extends React.Component {
         return(
             <div className={styles.container}>
                 <img className={styles.image} src={coronoImage} alt='COVID-19' />
+                <img className={styles.gif} src={coronagif} alt='COVID-19' />
                 <Cards data={data}/>
-                <Tables /><img className={styles.indiaimage} src={IndiaImage} alt='India' />
                 <CountryPicker handleCountryChange={this.handleCountryChange}/>
+                <h3>India</h3>
+                <Tables />
                 <Chart data={data} country={country}/>
             </div>
         )

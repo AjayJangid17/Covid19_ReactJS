@@ -2,5 +2,22 @@
     .container{
         width: 100%;
         margin: 2% 0 !important;
+        
     }
+}
+
+
+
+@media (max-width: 770px) {
+    .tablecontainer{
+        /* width: 100%; */
+        margin: 2% 0 !important;
+        height: 50%;
+        width: 100%;
+    }
+}
+
+.tablecontainer {
+    width: 753px;
+    height: 500px;
 }
