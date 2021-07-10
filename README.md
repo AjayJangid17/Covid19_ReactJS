@@ -1,6 +1,6 @@
 # COVID-19 Tracker
 
-### [Live Site](#)
+### [Live Site](https://covid-19tracker-app.netlify.app/)
 
 <p align="center">
 <img src="/src/images/Covid-main-page.png" width="100%">
